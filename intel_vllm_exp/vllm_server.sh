@@ -1,0 +1,1 @@
+python -m vllm.entrypoints.openai.api_server --model meta-llama/Meta-Llama-3-8B-Instruct --dtype float16 --tensor-parallel-size 1 --port 7000 --host localhost --gpu-memory-utilization 0.9
